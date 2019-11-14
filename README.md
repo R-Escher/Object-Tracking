@@ -1,5 +1,5 @@
 # Object-Tracking
-Python OpenCV Object Tracking usin SIFT, SURF and ORB.
+Python OpenCV Object Tracking using SIFT, SURF and ORB.
 
 Tracks a object in a video, using selected keypoint detector.
 
