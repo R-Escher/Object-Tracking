@@ -26,7 +26,7 @@ if len(sys.argv) == 5:
         # sets BFM recommended configuration for surf
         bf = cv.BFMatcher(cv.NORM_HAMMING,crossCheck=True)           
 else:
-    print("Number of arguments must be 3:\n  1. Type of KeyPoint Detector and Descriptor Extractor\n  2. Number of KeyPoints to be found (0 sets standard number) \n  3. Percentage of good matches to be considered")
+    print("Number of arguments must be 4:\n  1. Name and Format of video (example.mp4)\n  2. Type of KeyPoint Detector and Descriptor Extractor\n  3. Number of KeyPoints to be found (0 sets standard number) \n  4. Percentage of good matches to be considered")
     sys.exit()
 
 
