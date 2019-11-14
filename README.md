@@ -7,10 +7,10 @@ Program run examples:
 --
 
 SIFT with 2000 keypoints and 10% of good match:
-python object_tracking.py sift 2000 0.1
+python object_tracking.py video.mp4 sift 2000 0.1
 
 SURF with standard keypoints and 30% of good match:
-python object_tracking.py surf 0 0.3
+python object_tracking.py video.mp4 surf 0 0.3
 
 ORB with 10000 keypoints and 80% of good match:
-python object_tracking.py orb 10000 0.8
+python object_tracking.py video.mp4 orb 10000 0.8
